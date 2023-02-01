@@ -1,0 +1,145 @@
+@media screen and (min-width: 1400px){
+    .about-img img{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .about-img img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .my-btn{
+        margin-left: 0px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .nav-link{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .hero-img{
+        display: flex;
+        justify-content: center;
+        margin-top:40px;
+    }
+    .hero-area{
+        padding: 60px 0 50px 0;
+    }
+    .about-img img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .hero-img img{
+        width: 80%;
+        margin-top: 15px;
+    }
+    .my-service{
+        margin-top: 25px;
+    }
+    .hero-text h2{
+        font-size: 38px;
+        line-height: 35px;
+    }
+    .hero-text{
+        margin: 40px 0;
+    }
+    .ft-text, .ft-tx, .hero-text{
+        text-align: center;
+    }
+    .ft-text h4::after{
+        top: 100%;
+        left: 41%;
+        width: 13%;
+    }
+    .ft-text{
+        margin-bottom: 30px;
+    }
+    .my-btn{
+        margin-bottom: 20px;
+    }
+    .contact-area{
+        padding: 60px 0;
+    }
+    .about-area h2{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero-text{
+        text-align: center;
+    }
+    .services{
+        padding: 20px 0 50px 0;
+    }
+    .my-service{
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .white-btn{
+        font-size: 20px;
+    }
+    .progress{
+        height: 8px;
+    }
+    .ft-text h4::after{
+        top: 100%;
+        left: 43%;
+        width: 12%;
+    }
+    .my-contact{
+        flex-direction: column-reverse;
+    }
+    .services h2{
+        font-size: 42px;
+        margin: 50px 0;
+    }
+    .contact-left{
+        margin-top: 50px;
+    }
+    .work-area h2{
+        font-size: 44px;
+    }
+    .contact-area h2{
+        margin-bottom: 15px;
+        font-size: 42px;}
+}
+@media screen and (max-width: 575px) {
+    .hero-text h2{
+        font-size: 46px;
+    }
+    .hero-text p{
+        font-size: 16px;
+    }
+    .about-area h2{
+        font-size: 46px;
+    }
+    .progress{
+        height: 7px;
+    }
+    .hero-img img{
+        width: 95%;
+    }
+    .about-img img{
+        width: 85%;
+    }
+    .my-service{
+        width: 100%;
+        margin: 20px auto;
+    }
+    #inputName{
+        width: 100%;
+
+    }
+    #inputEmail{
+        width: 100%;
+    }
+    .ft-text{
+        margin-top: 15px;
+    }
+    .about-img img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

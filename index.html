@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/media.css">
+    <link rel="shortcut icon" href="img/logo/fgfg.png" type="image/x-icon">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("uZCRM7GasQEg72HQn");
+      })();
+  </script>
+</head>
+<body>
+  <!-- Header Area -->
+  <section class="header-area fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <span>Code</span><img src="img/logo/45.png" alt="photo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="my-icon"><i class="fa-solid fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#work-area">Portfolio</a>
+                  </li>
+                  <div class="my-btn">
+                    <a href="mailto:newmahmud24@gmail.com" class="btn green-btn">HIRE ME!</a>
+                  </div>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+  </section>
+  <!-- Hero Area -->
+  <section class="hero-area" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="hero-text">
+            <h4>Hello, I'm</h4>
+            <h2>Web Developer</h2>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet.</p>
+            <div class="down-cv">
+              <a href="#" class="btn green-btn">Download CV</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1">
+          <div class="hero-img">
+            <img src="img/1.jpg" alt="photo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Preloder -->
+  <section id="preloder-area">
+    <div class="spinner-border text-white" role="status">
+      </div>
+  </section>
+  <!-- About Area -->
+  <section class="about-area" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-img">
+            <img src="img/2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-text">
+            <h3>Web Skills</h3>
+            <p>Web development can range from developing a simple single static page</p>
+            <div class="my-progress">
+              <div class="about-progress">
+                <h5>HTML</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="about-progress">
+                <h5>Css</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="about-progress">
+                <h5>Javascript</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="about-progress">
+                <h5>Bootstrap</h5>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>What I Do</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="my-service">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web development</h3>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="my-service">
+            <i class="fa-brands fa-creative-commons-share"></i>
+            <h3>Web Design</h3>
+            <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="my-service">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Creative Design</h3>
+            <p>Creative design is computer generated imagery and digital animation created to visualize a potential product. The creative design includes designs that are</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Latest Work -->
+  <section class="work-area" id="work-area">
+    <div class="container">
+      <h2>Latest Work</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="work-img">
+            <a href="https://whitespace-site.netlify.app/" target="_blank"><img src="img/work/work.png" class="img-thumbnail" alt="photo"></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="work-img">
+            <a href="https://email-js2024.netlify.app/" target="_blank"><img src="img/work/work6.png" class="img-thumbnail" alt="photo"></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="work-img">
+            <a href="https://dizme.netlify.app/" target="_blank"><img src="img/work/work5.png" class="img-thumbnail" alt="photo"></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="work-img">
+            <a href="https://interior-design2023.netlify.app/" target="_blank"><img src="img/work/work3.png" class="img-thumbnail" alt="photo"></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="work-img">
+            <a href="https://bd-builders.netlify.app/" target="_blank"><img src="img/work/work4.png" class="img-thumbnail" alt="photo"></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="work-img">
+            <a href="https://dizme.netlify.app/" target="_blank"><img src="img/work/work2.png" class="img-thumbnail" alt="photo"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hire me -->
+  <section class="hire-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="hire-text">
+            <h4>Do yoy have any project?</h4>
+            <h2>I'm available for freelancer projects</h2>
+            <div>
+              <a href="mailto:newmahmud24@gmail.com" class="btn white-btn">Hire Me!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact ME -->
+  <section class="contact-area" id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="row my-contact">
+        <div class="col-md-4 ">
+          <div class="contact-left">
+              <a href="mailto:newmahmud24@gmail.com" class="contact-box">
+                  <p><i class="fa-solid fa-envelope"></i> Email</p>
+                  <p class="gray-p">newmahmud24@gmail.com</p>
+              </a>
+              <a href="tel:+8801790257653" class="contact-box">
+                <p><i class="fa-solid fa-square-phone-flip"></i> Phone</p>
+                <p class="gray-p">+88 017 9025 7653</p>
+            </a>
+            <a href="#" class="contact-box" style="cursor: default;">
+              <p><i class="fa-solid fa-location-dot"></i> Location</p>
+              <p class="gray-p">Mirpur, Dhaka</p>
+          </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="contact-right">
+            <div class="form">
+              <div class="flex-input">
+                <input type="text" class="form-control " placeholder="Your Name" id="inputName">
+              <input type="text" class="form-control " placeholder="Your Email" id="inputEmail" required>
+              </div>
+              <input type="text" class="form-control" placeholder="Subject" id="inputSubject">
+              <textarea id="inputMessage" class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <div id="success-form"></div>
+            <div id="fill-form"></div>
+            <button href="#" class="btn green-btn mt-4" id="sendMessage">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="ft-tx">
+            <a class="footer-logo" href="#">
+              <span>Code</span><img src="img/logo/white.png" alt="photo">
+            </a>
+            <p>For larger organizations and businesses, Web development teams can consist of hundreds of people (Web developers)</p>
+          </div>
+        </div>
+        <div class="col-lg-2 offset-lg-1 col-md-6">
+          <div class="ft-text">
+            <h4 class="mb-3">Links</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#work-area">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 ">
+          <div class="ft-text">
+            <h4>office</h4>
+            <p>2041, Bissoroad, ChapainawabGonj, Rajshahi, BD</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="ft-text social-text">
+            <h4>Social</h4>
+            <a href="https://www.facebook.com/Maxmahmud24" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/max-mahmud" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!--  Bootstrap Bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

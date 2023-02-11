@@ -196,6 +196,7 @@ body{
 /* ================my-service=========== */
 .services{
     padding: 60px 0;
+    background-color: #f2fcf9;
 }
 .services h2{
     font-size: 52px;
@@ -286,6 +287,7 @@ body{
 /* ==================contact-area========== */
 .contact-area{
     padding: 80px 0;
+    background-color: #f2fcf9;
 }
 .contact-left{
     margin-top: 10px;
